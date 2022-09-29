@@ -1,5 +1,5 @@
 GCC = gcc
 
-main: main.c
+main: main.c fibRec.c
 	$(GCC) $^ -g -lm -o $@
 
